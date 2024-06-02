@@ -3,6 +3,7 @@ public class overload
 {
   public static void main(String[] args)
   {
+    /*Methods that share same name but have different parameters method name + parameters = method signature */
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter three numbers");
     int a = sc.nextInt();
