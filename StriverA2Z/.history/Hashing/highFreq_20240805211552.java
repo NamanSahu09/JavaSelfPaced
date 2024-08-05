@@ -29,11 +29,7 @@ public class highFreq {
 
 
     //or
-     // Compute frequencies
-    //  Map<Integer, Integer> map = new HashMap<>();
-    //  for (int i = 0; i < no; i++) {
-    //      map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
-    //  }
+    
 
 
 
