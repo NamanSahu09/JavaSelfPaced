@@ -1,7 +1,7 @@
 import java.util.*;
-public class bits {
- public static void main(String args[])
- {
+public class updateBit {
+  public static void main(String args[])
+  {
   Scanner sc = new Scanner(System.in);
   System.out.println("Enter a number");
   int no = sc.nextInt();
@@ -9,16 +9,12 @@ public class bits {
   int pos = sc.nextInt();
   
   int bitMask = 1 << pos;
-
-  if((bitMask & no) == 0 )
-  {
-    System.out.println("Bit was ZERO");
-  }
-  else
-  System.out.println("Bit was ONE");
+    int notBitMask = ~(bitMask);
+  int newNumber = notBitMask & no;
+  System.out.println("New number is: " + newNumber); 
 
 
   sc.close();
- }
-  
+  }
+
 }
