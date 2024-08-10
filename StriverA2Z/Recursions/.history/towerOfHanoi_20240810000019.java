@@ -1,5 +1,5 @@
 import java.util.*;
-public class Factorial {
+public class towerOfHanoi {
   
   static int calcFact(int n)
   {

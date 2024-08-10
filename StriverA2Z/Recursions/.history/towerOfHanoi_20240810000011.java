@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.*;
 public class Factorial {
   
   static int calcFact(int n)

@@ -1,13 +1,10 @@
 import java.util.*;
-public class Factorial {
+public class towerOfHanoi {
   
-  static int calcFact(int n)
+  static void towerOfHanoii(int n, String src, String help, String dest)
   {
     if(n == 1 || n == 0)
-    return 1;
-
-    int res = calcFact(n-1);
-    return res * n;
+   
   }
 
   public static void main(String args[])
@@ -16,9 +13,7 @@ public class Factorial {
     System.out.println("Enter a number");
     int n = sc.nextInt();
 
-    int ans  = calcFact(n);
-    System.out.println("Factorial is: " + ans);
-
+   towerOfHanoii(n);
     sc.close();
   }
   

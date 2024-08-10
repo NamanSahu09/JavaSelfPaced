@@ -1,7 +1,7 @@
 import java.util.*;
-public class Factorial {
+public class towerOfHanoi {
   
-  static int calcFact(int n)
+  static void towerOfHanoii(int n)
   {
     if(n == 1 || n == 0)
     return 1;

@@ -6,8 +6,8 @@ public class Factorial {
     if(n == 1 || n == 0)
     return 1;
 
-    int res = calcFact(n-1);
-    return res * n;
+    int res = calcFact(n)
+    return fact_res;
   }
 
   public static void main(String args[])
