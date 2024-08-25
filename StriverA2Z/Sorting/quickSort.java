@@ -55,3 +55,8 @@ public class quickSort {
         sc.close();
     }
 }
+//is native primitive type
+//generic programming in python we never write int or dataType
+
+
+//pass is equal to goto tatem
