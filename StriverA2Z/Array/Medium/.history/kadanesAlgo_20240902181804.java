@@ -31,7 +31,6 @@ public class kadanesAlgo
           if(sum < 0)
           {
             sum=0;
-            k=0;
           }
 
         }

@@ -21,7 +21,6 @@ public class kadanesAlgo
           if(k==0 && sum > 0)
           {
             startIdx = i;
-            k=1;
           }
           if(sum>max)
           {
@@ -31,7 +30,6 @@ public class kadanesAlgo
           if(sum < 0)
           {
             sum=0;
-            k=0;
           }
 
         }

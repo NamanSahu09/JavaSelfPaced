@@ -6,8 +6,8 @@ public class kadanesAlgo
     {
         //Optimal Solution
         int max = Integer.MIN_VALUE;
-        int sum = 0,k=0;
-        int startIdx = 0, endIdx =0;
+        int sum = 0;
+        int startidx
         // for(int i=0;i<nums.length;i++)
         // {
         //     sum+=nums[i];
@@ -15,27 +15,6 @@ public class kadanesAlgo
         //     if(sum < 0
         //     sum=0;
         // }
-        for(int i=0;i<nums.length;i++)
-        {
-          sum+= nums[i];
-          if(k==0 && sum > 0)
-          {
-            startIdx = i;
-            k=1;
-          }
-          if(sum>max)
-          {
-            endIdx = i;
-            max = sum;
-          }
-          if(sum < 0)
-          {
-            sum=0;
-            k=0;
-          }
-
-        }
-        System.out.println("Start Index: "+startIdx+" End Index: "+endIdx);
         return max;
         
     }

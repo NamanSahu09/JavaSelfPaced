@@ -19,23 +19,8 @@ public class kadanesAlgo
         {
           sum+= nums[i];
           if(k==0 && sum > 0)
-          {
-            startIdx = i;
-            k=1;
-          }
-          if(sum>max)
-          {
-            endIdx = i;
-            max = sum;
-          }
-          if(sum < 0)
-          {
-            sum=0;
-            k=0;
-          }
 
         }
-        System.out.println("Start Index: "+startIdx+" End Index: "+endIdx);
         return max;
         
     }
