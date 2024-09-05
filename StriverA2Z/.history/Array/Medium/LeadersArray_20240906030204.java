@@ -1,0 +1,32 @@
+package Array.Medium;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class LeadersArray 
+{
+  public static void main(String argsp[])
+  {
+    int arr[] = {10,22,12,3,0,6};
+    int max = Integer.MIN_VALUE;
+    ArrayList<Integer> list = new ArrayList<>();
+    for(int i=arr.length-1; i>=0;i--)
+    {
+      if(arr[i] > max)
+      {
+        max = arr[i];
+        list.add(max);
+      }
+    }
+    System.out.println("Leaders in array: ");
+    Arrays.sort(list);
+    for(int i:list)
+    {
+      System.out.println(i);
+    }
+
+
+
+  }
+  
+}
