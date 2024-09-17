@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class tUf {
+public class majority {
     public static List<Integer> majorityElement(int []v) {
         int n = v.length; //size of the array
 
