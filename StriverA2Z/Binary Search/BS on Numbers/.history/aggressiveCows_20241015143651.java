@@ -1,8 +1,6 @@
 import java.util.*;
 public class aggressiveCows
 {
-
-
   public static boolean isPossible(int arr[], int dist, int cows)
   {
     int n = arr.length;
@@ -20,7 +18,6 @@ public class aggressiveCows
     }
     return false;
   }
-
 
 
   public static int aggressiveCows(int arr[],int cows)

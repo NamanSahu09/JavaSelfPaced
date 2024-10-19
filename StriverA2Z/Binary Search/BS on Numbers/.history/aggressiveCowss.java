@@ -1,12 +1,14 @@
 import java.util.*;
-public class aggressiveCows
+public class aggressiveCowss
 {
+
+
   public static boolean isPossible(int arr[], int dist, int cows)
   {
     int n = arr.length;
     int cnt = 1;
     int last = arr[0];
-    for(int i=1; i<n; i++)
+    for(int i=1; i<n; i++)  
     {
       if(arr[i] - last >= dist)
       {
@@ -18,6 +20,8 @@ public class aggressiveCows
     }
     return false;
   }
+
+
 
   public static int aggressiveCows(int arr[],int cows)
   {
@@ -40,6 +44,10 @@ public class aggressiveCows
     return res;
 
   }
+
+
+
+
 
   public static void main(String args[])
   {

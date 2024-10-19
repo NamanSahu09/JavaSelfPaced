@@ -19,6 +19,8 @@ public class aggressiveCows
     return false;
   }
 
+
+
   public static int aggressiveCows(int arr[],int cows)
   {
     int n = arr.length;
@@ -40,6 +42,10 @@ public class aggressiveCows
     return res;
 
   }
+
+
+
+
 
   public static void main(String args[])
   {
