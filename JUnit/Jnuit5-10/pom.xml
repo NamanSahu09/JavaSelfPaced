@@ -12,7 +12,10 @@
 	<junit.jupiter.version>5.10.0</junit.jupiter.version> <!-- JUnit 5 version -->
 </properties>
 
-<dependencies>
+
+
+
+	<dependencies>
     <!-- JUnit 5 dependency -->
     <dependency>
         <groupId>org.junit.jupiter</groupId>
@@ -20,7 +23,9 @@
         <version>${junit.jupiter.version}</version>
         <scope>test</scope>
     </dependency>
+
 </dependencies>
+
 <build><plugins>
 	<plugin>
 	<artifactId>maven-compiler-plugin</artifactId>
