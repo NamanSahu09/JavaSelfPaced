@@ -1,0 +1,3 @@
+class Node:
+  int data
+  
