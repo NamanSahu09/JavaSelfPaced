@@ -1,4 +1,6 @@
 package Demo;
 
-public interface Staff {
+public interface Staff
+{
+    void assist();
 }
