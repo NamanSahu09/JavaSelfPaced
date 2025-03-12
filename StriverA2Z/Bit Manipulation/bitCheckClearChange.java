@@ -4,9 +4,7 @@ public class bitCheckClearChange {
       // Function to check if Kth bit is set or not.
       static boolean checkKthBit(int n, int k) 
       {
-          // Your code here
-          // It can be a one liner logic!! Think of it!!
-          
+        //one liner
            return (((n>>k) & 1) ==0) ? false : true;
       }
  
@@ -16,7 +14,10 @@ public class bitCheckClearChange {
        return  N |(1<<i);
 
     }
-
+    static int clearIBit(int N, int i)
+    {
+        return  N & (~(1<<i));
+    }
 
       public static void main(String args[])
       {
