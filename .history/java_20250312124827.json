@@ -2,12 +2,14 @@
   "java snippets": {
       "prefix": "boilerjava",
       "body": [
+          ,
           "public static void main(String args[])",
           "{",
           "Scanner sc = new Scanner(System.in);",
           "System.out.println(\"Hello World\");",
+          "}",
           "}"
       ],
       "description": "to produce the main snippet for java"
-  } 
+  }
 }

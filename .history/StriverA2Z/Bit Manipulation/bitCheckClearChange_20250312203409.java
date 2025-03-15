@@ -1,8 +1,8 @@
-public class bitCheck {
+public class bitCheckClearChange {
  
 
       // Function to check if Kth bit is set or not.
-      bool checkKthBit(int n, int k) 
+      static boolean checkKthBit(int n, int k) 
       {
           // Your code here
           // It can be a one liner logic!! Think of it!!
@@ -10,10 +10,16 @@ public class bitCheck {
            return (((n>>k) & 1) ==0) ? false : true;
       }
  
+
+    static String setIBit(int N, int i)
+    {
+       int n = 
+    }
+
+
       public static void main(String args[])
       {
-        bitCheck obj = new bitCheck();
-        System.out.println(obj.checkKthBit(4,2));
+        System.out.println(checkKthBit(13, 2));
       }
       
 }

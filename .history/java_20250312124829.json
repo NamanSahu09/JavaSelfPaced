@@ -6,8 +6,9 @@
           "{",
           "Scanner sc = new Scanner(System.in);",
           "System.out.println(\"Hello World\");",
+          "}",
           "}"
       ],
       "description": "to produce the main snippet for java"
-  } 
+  }
 }
