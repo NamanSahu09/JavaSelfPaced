@@ -20,7 +20,7 @@ public class connectDB {
         
         System.out.print("Enter Student ID: ");
         int studentID = sc.nextInt();
-        sc.nextLine(); // Consume newline
+        sc.nextLine(); 
         
         System.out.print("Enter Name: ");
         String name = sc.nextLine();
@@ -30,15 +30,17 @@ public class connectDB {
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); 
-            
-            // Establish connection
             Connection conn = DriverManager.getConnection(url, username, password);
-            
-            // Prepare SQL query to insert data
             String query = "INSERT INTO Student (studentID, Name, Address) VALUES (?, ?, ?)";
             PreparedStatement pst = conn.prepareStatement(query);
             
-            // Set values dynamically
+       
+            System.out.println("Enter the studentID: ");
+            System.out.println("Enter the name: ");
+            System.out.println("Enter Address: ");
+            
+            
+            
             pst.setInt(1, studentID);
             pst.setString(2, name);
             pst.setString(3, address);
