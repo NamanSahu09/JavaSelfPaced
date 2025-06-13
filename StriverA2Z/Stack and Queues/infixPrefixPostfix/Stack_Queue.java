@@ -1,3 +1,4 @@
+package infixPrefixPostfix;
 import java.util.*;
 class Stackk
 {
