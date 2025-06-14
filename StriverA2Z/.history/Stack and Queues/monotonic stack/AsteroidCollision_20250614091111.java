@@ -1,0 +1,3 @@
+lic class AsteroidCollision {
+  
+}

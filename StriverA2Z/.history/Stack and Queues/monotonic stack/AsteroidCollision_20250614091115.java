@@ -1,0 +1,4 @@
+pulic class AsteroidCollision 
+{
+  
+}
