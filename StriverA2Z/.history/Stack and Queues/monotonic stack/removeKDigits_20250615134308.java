@@ -1,0 +1,61 @@
+import java.util.*;
+class removeKDigits {
+
+  public String removeKdigits(String num, int k) 
+  {
+      Stack<Character>st = new Stack<>();
+      
+      for(char digit : num.toCharArray())
+      {
+          while(!st.isEmpty() && k > 0 && st.peek() - '0' > digit - '0')
+          {
+              st.pop();
+              k--;
+          }
+          st.push(digit);
+      }
+
+      //Edge Cases
+
+      //remove extra digits 1,2,3,4,5 in stack k =3
+      while(!st.isEmpty() && k>0)
+      {
+          st.pop();
+          k--;
+      }
+
+      //reverse the string
+      StringBuilder sb = new StringBuilder();
+      while(!st.isEmpty())
+      {
+        sb.append(st.pop());
+      }
+      sb.reverse();
+
+      //remove leading zeros
+      
+      for(int i=0;i<sb.length();)
+      {
+          char c = sb.charAt(i);
+
+          if(c == '0')
+          {
+              sb.deleteCharAt(i);
+          }
+          else 
+          {
+              break;
+          }
+         
+      }
+
+      return sb.length() > 0 ? sb.toString() : "0";
+
+
+
+  }
+  public static void main(String[] args) 
+  {
+     
+  }
+}
