@@ -1,6 +1,6 @@
 import java.util.Stack;
 import java.util.*;
-public class Solution {
+public class maxRect {
 
     public int lHist(int arr[])
     {
