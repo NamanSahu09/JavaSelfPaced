@@ -14,7 +14,7 @@ class StockSpanner
     }
     Stack<Pair> st;
     int idx;
-
+                                                                                            
     public StockSpanner() 
     {
         st = new Stack<>();
